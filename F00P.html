@@ -4,14 +4,31 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+        .loader {
+                  position: fixed;
+                  left: 0px;
+                  top: 0px;
+                  width: 100%;
+                  height: 100%;
+                  z-index: 9999;
+                  background: url('images/preloaderimage.gif') 50% 50% no-repeat rgb(249,249,249);
+                  }
+    </style>
     <title>Pools</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/webkitcustom.css" rel="stylesheet">
+
 </head>
 <body>
 <!--JAVA Script Files-->
 <script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+  $(window).on('load', function(){
+  	$(".loader").fadeOut("slow");
+  })
+</script>
 <script src="js/bootstrap.min.js"></script>
 <!--Main Body-->
 <nav class="navbartop navbartop-default navbar-fixed-top">
