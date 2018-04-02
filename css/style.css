@@ -1,0 +1,117 @@
+/* Other Settings*/
+.shadow{-webkit-box-shadow: 0 8px 7px -6px #b5b5b5; -moz-box-shadow: 0 8px 6px -7px #b5b5b5; box-shadow: 0 8px 6px -7px #b5b5b5;  }
+#thehand{ cursor: pointer; }
+.dropdown-menu > .active > a{  background-color: #e4001b;  }
+.dropdown-menu > .active > a:hover{  background-color: #e4001b;  }
+.dropdown-toggle:active, .open .dropdown-toggle {background:#e4001b !important; color:#ffffff !important;}
+.containner {padding-right: 400px; padding-left: 400px; text-align: center;}
+
+/*Navigation Bar Size*/
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:4px !important;
+    padding-bottom:0 !important;
+    height: 28px;  }
+.navbar {min-height:28px !important;}
+
+/*Jumbotron*/
+.jumbotron-I {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(255,255,255,255.6) 100%), url("../images/IBG.jpg");
+    background-size: cover;
+    height: 150px;}
+.jumbotron-L {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(255,255,255,255.6) 100%), url("../images/F00L/LBG.jpg");
+    background-size: cover;
+    height: 150px;}
+.jumbotron-P {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(255,255,255,255.6) 100%), url("../images/F00P/PBG.jpg");
+    background-size: cover;
+    height: 150px;}
+.jumbotron-C {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(255,255,255,255.6) 100%), url("../images/F00C/CBG.jpg");
+    background-size: cover;
+    height: 150px;}
+.jumbotron-A {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(255,255,255,255.6) 100%), url("../images/ABG.jpg");
+    background-size: cover;
+    height: 150px;}
+.jumbotron-O {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(255,255,255,255.6) 100%), url("../images/OBG.jpg");
+    background-size: cover;
+    height: 150px;}
+.jumbotron-I > h1{ font-size:60px; color: #e4001b; padding-left: 50px; padding-top: 40px; text-shadow: #444 0 1px 1px;}
+.jumbotron-L > h1{ font-size:60px; color: #e4001b; padding-left: 50px; padding-top: 40px; text-shadow: #444 0 1px 1px;}
+.jumbotron-P > h1{ font-size:60px; color: #e4001b; padding-left: 50px; padding-top: 40px; text-shadow: #444 0 1px 1px;}
+.jumbotron-C > h1{ font-size:60px; color: #e4001b; padding-left: 50px; padding-top: 40px; text-shadow: #444 0 1px 1px;}
+.jumbotron-A > h1{ font-size:60px; color: #e4001b; padding-left: 50px; padding-top: 40px; text-shadow: #444 0 1px 1px;}
+.jumbotron-O > h1{ font-size:60px; color: #e4001b; padding-left: 50px; padding-top: 40px; text-shadow: #444 0 1px 1px;}
+
+
+/*Navigation bar: Background*/
+.navbarmid{
+    padding-top:4px !important;
+    padding-bottom:0 !important;
+    height: 55px;  }
+.navbarmid {min-height:55px !important;}
+.navbarmid {border-radius: 0px; border-top: 16px; margin-top: 28px; background-image: url("../images/HBACKGROUND.png")}
+
+/*Main Navigation Bar Design*/
+.navbar-default .navbar-nav > .active{  color: #1080be;  background:  #1080be;  }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {  color: #ffffff;  background:  #3fbbff;  }
+
+/*Top Navigation Bar Design*/
+.navbartop {  background: #e4001b;  border-radius: 0px; border: 0px;}
+
+/*Navigation Bar Design for the menu and drop down*/
+.navbar {  background: #f3f3f3;  border-radius: 0px; border: 0px;}
+.navbar .nav > li > a:hover{  color: #ffffff; background: #3fbbff;  }
+.dropdown-menu > li > a:hover{  color: #ffffff; background: #3fbbff;  }
+
+/*Carousel Design*/
+.carousel {border-bottom: rgba(0, 0, 0, 1)}
+.carousel-indicators {position: absolute; bottom: .1%;}
+.carousel-caption {  position: absolute; left: 3%; bottom: 10%; text-align: left; font-family: Verdana, Calibri;}
+.carousel-caption  h1 { font-size: 5vw; responsive:true;}
+.carousel-caption p {padding-left: 5%; padding-top: 1%; font-size: 1.8vw;}
+.navbar-toggle{margin-bottom: 0px; margin-top: 2px; border-top: 1px; padding-top: 5px; padding-bottom: 5px; padding-left: 6px; padding-right: 6px;}
+
+/*Image brand and Header Image*/
+@media(max-width:767px){ .imgr{ width: 150px; height: auto}}
+@media(min-width:768px){ .imgr{ width: 150px; height: auto}}
+@media(min-width:992px){ .imgr{ height: auto;}}
+@media(min-width:1200px){ .imgr{ width: auto;}}
+
+/*Bottom Navigation bar*/
+.navbarbot{
+    padding-top:4px !important;
+    padding-bottom:0 !important;
+    height: 250px;  }
+.navbarbot {min-height:55px !important;}
+.navbarbot {  background: #f3f3f3;  border-radius: 0px; border-top: 16px; margin-top: 28px;}
+.navbarbot .glyphicon {font-size: 2vw; padding-right: 8px; padding-bottom: 10px;}
+.navbarbot p {color: #232323; font-size: 14px;}
+
+/* Modal Design*/
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #e4001b;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-footer {
+    padding:9px 15px;
+    border-top:1px solid #eee;
+    background-color: #f3f3f3;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
